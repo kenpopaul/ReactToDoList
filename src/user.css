@@ -5,6 +5,7 @@ body {
 h1 {
   font-size: 50px;
   color: green;
+  text-align: center;
 }
 
 .body {
@@ -12,4 +13,11 @@ h1 {
   grid-template-columns: auto 1fr;
   gap: 1rem 0.5rem;
   padding: 0 1rem;
+  text-align: center;
+}
+
+.addTask {
+  text-align: center;
+  background-color: #008cba;
+  font-size: 16px;
 }
