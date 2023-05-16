@@ -20,7 +20,11 @@ function App() {
         <input onChange={handleChange} />
         <button onClick={addTask}>Add Task</button>
       </div>
-      <div className="list"></div>
+      <div className="list">
+        {todoList.map((task) => {
+          return <h1>{task}</h1>;
+        })}
+      </div>
     </div>
   );
 }
